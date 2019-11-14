@@ -1,0 +1,36 @@
+{
+    "authors": [{
+        "name": "Stewart Walter",
+        "email": "code@bigstylee.co.uk"
+    }],
+    "repositories": [{
+        "type": "composer",
+        "url": "https://wpackagist.org"
+    }],
+    "require": {
+        "php": ">=7.3",
+        "composer/installers": "*",
+        "vlucas/phpdotenv": "^2.2",
+        "johnpbloch/wordpress": "*",
+        "wpackagist-plugin/ninja-forms": "*",
+        "wpackagist-theme/twentynineteen": "*"
+    },
+    "require-dev": {
+        "wpackagist-plugin/debug-bar": "*",
+        "wpackagist-plugin/monkeyman-rewrite-analyzer": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "public/wordpress",
+        "installer-paths": {
+            "public/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+            "public/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "public/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    }
+}
