@@ -79,7 +79,14 @@ define('DISABLE_WP_CRON', true);
  *
  * @since 2.6.0
  */
-
+define('AUTH_KEY',         'a/Pi:rq/%|l`+Br!.U^D5D/*Gbo*8Y!6o=huf+|PP<hFyG+4j#;|s/,NvG+hMR@D');
+define('SECURE_AUTH_KEY',  'tXMb<[ Q#9`eGDw#)&o}62hSPewDw{qif9doKfn{A5OXUWDOCW0K@Ez+&<H>nQ++');
+define('LOGGED_IN_KEY',    '4W1;C+=xs2`<Z}ovz&u4=U8Yt<iAYYfwTKc [YRyj%HH^+D+?,{g{_.kx5EIPaOh');
+define('NONCE_KEY',        '+VRV<cY^c2m8-[Z;2N3#n@RaNgG3&i12xybqF.2Z|-o:gXp-[-_dY&!qXV$24V&<');
+define('AUTH_SALT',        'i:,~=-rh!25b/-a8hcXDLTZi$+&ChZoX-QT(HDeGq$`?s0 kG_)Mk0%}zL|Qa2nh');
+define('SECURE_AUTH_SALT', ';(mFfP1E`NVjX&Cg$` LkS0peblV8,A3JDC[f[1jQQJ-Qe7gAYu6;e%E/?tvedAH');
+define('LOGGED_IN_SALT',   'OvJ|n(6H$|F}k{8f]o13w+h&W AMs0LjTb>5!8- zuC|n(:j9B|cofs;K!ebWk9>');
+define('NONCE_SALT',       '@ez5>oKZ5+[~/oUK-+2NC.efJEk}++[^+cna[Z$~->)mZ:LZ<1`M<H&U*kR^|bTS');
 
 /**#@-*/
 
