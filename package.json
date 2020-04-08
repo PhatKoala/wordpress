@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.28.3",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.0.1",
+    "webpack-notifier": "^1.6.0"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "jquery": "^3.4.1",
+    "tailwindcss": "^1.2.0"
+  }
+}

@@ -1,3 +1,9 @@
+### macOS ###
+.DS_Store
+
+### PhpStorm ###
+.idea/
+
 ### Composer ###
 composer.phar
 vendor/
@@ -5,13 +11,20 @@ vendor/
 ### dotenv ###
 .env
 
-### PhpStorm ###
-.idea/
-
 ### WordPress ###
 public/wordpress/
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
-wp-content/themes/twenty*/
+public/wp-content/*
+
+!public/wp-content/mu-plugins/
+public/wp-content/mu-plugins/*
+
+!public/wp-content/plugins/
+public/wp-content/plugins/*
+!public/wp-content/plugins/advanced-custom-fields-pro
+
+!public/wp-content/themes/
+public/wp-content/themes/*
+!public/wp-content/themes/phatkoala.uk
+
+### Node ###
+node_modules/
